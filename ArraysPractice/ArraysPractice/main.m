@@ -26,14 +26,19 @@ int main(int argc, const char * argv[]) {
         Person *toyosi = [[Person alloc] initWithFirstname:@"Toyosi" withLastname:@"Adeyemi" withAge:21];
         
         
+        NSMutableArray *arrayOfPeople = [@[toyosi, me, ife, adaeze, afope, tolu, seun, tireni] mutableCopy];
         
+        NSLog(@"Original arrayOfPeople array = %@\n\n", arrayOfPeople);
         
+        NSPredicate *containsOduyale = [NSPredicate predicateWithFormat:@"SELF.firstname BEGINSWITH[c] 'i'"];
+        
+        [arrayOfPeople filterUsingPredicate:containsOduyale];
+        
+        NSLog(@"Filtered by Lastname (Oduyale) arrayOfPeople Now = %@\n\n", arrayOfPeople);
         
         
         /*
-        
-        NSMutableArray *arrayOfPeople = [@[toyosi, me, ife, adaeze, afope, tolu, seun, tireni] mutableCopy];
-        
+         
         NSLog(@"Original arrayOfPeople array = %@\n\n", arrayOfPeople);
         
         
