@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8140E4BC1CBFE71300DA2879 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8140E4BB1CBFE71300DA2879 /* main.m */; };
+		8140E4C51CBFEB7200DA2879 /* ArraySorter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8140E4C41CBFEB7200DA2879 /* ArraySorter.m */; };
+		8140E4C91CBFF0DA00DA2879 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8140E4C81CBFF0DA00DA2879 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		8140E4B81CBFE71300DA2879 /* ArraysPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ArraysPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		8140E4BB1CBFE71300DA2879 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8140E4C31CBFEB7200DA2879 /* ArraySorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArraySorter.h; sourceTree = "<group>"; };
+		8140E4C41CBFEB7200DA2879 /* ArraySorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArraySorter.m; sourceTree = "<group>"; };
+		8140E4C71CBFF0DA00DA2879 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8140E4C81CBFF0DA00DA2879 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,8 @@
 		8140E4AF1CBFE71300DA2879 = {
 			isa = PBXGroup;
 			children = (
+				8140E4C61CBFF08A00DA2879 /* Model */,
+				8140E4C21CBFEB4400DA2879 /* Array Sorting Classes */,
 				8140E4BA1CBFE71300DA2879 /* ArraysPractice */,
 				8140E4B91CBFE71300DA2879 /* Products */,
 			);
@@ -60,6 +68,24 @@
 				8140E4BB1CBFE71300DA2879 /* main.m */,
 			);
 			path = ArraysPractice;
+			sourceTree = "<group>";
+		};
+		8140E4C21CBFEB4400DA2879 /* Array Sorting Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8140E4C31CBFEB7200DA2879 /* ArraySorter.h */,
+				8140E4C41CBFEB7200DA2879 /* ArraySorter.m */,
+			);
+			name = "Array Sorting Classes";
+			sourceTree = "<group>";
+		};
+		8140E4C61CBFF08A00DA2879 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8140E4C71CBFF0DA00DA2879 /* Person.h */,
+				8140E4C81CBFF0DA00DA2879 /* Person.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8140E4C91CBFF0DA00DA2879 /* Person.m in Sources */,
+				8140E4C51CBFEB7200DA2879 /* ArraySorter.m in Sources */,
 				8140E4BC1CBFE71300DA2879 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
